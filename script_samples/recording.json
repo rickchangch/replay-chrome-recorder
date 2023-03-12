@@ -1,0 +1,76 @@
+{
+    "title": "TEST",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1053,
+            "height": 944,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://blog.kkday.com/11412/asia-korea-seoul-guide?RID=POST_AUTO&place=35710&target=11412",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://blog.kkday.com/11412/asia-korea-seoul-guide?RID=POST_AUTO&place=35710&target=11412",
+                    "title": "首爾自由行｜2023首爾自由行景點推薦/行程規劃/交通教學/首爾換錢/首爾美食/逛街購物&住宿建議，最強懶人包整理"
+                }
+            ],
+            "timeout": 5000
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/#️ 入境&簽證",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#menu-item-129383 > a > span.menu-text"
+                ],
+                [
+                    "xpath///*[@id=\"menu-item-129383\"]/a/span[1]"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 39.5,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://blog.kkday.com/tag/covid-news-and-policies?header=1",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/#️ SIM卡",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#menu-item-146783 > a > span.menu-text"
+                ],
+                [
+                    "xpath///*[@id=\"menu-item-146783\"]/a/span[1]"
+                ]
+            ],
+            "offsetY": 26,
+            "offsetX": 42.328125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://blog.kkday.com/110730/global-internet-sim-wifi?header=1",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}

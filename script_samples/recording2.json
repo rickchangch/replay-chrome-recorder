@@ -1,0 +1,25 @@
+{
+    "title": "Recording 2023/3/12 at 下午6:17:55",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1053,
+            "height": 944,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://www.google.com.tw",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.google.com.tw",
+                    "title": "新分頁"
+                }
+            ]
+        }
+    ]
+}

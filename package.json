@@ -1,0 +1,24 @@
+{
+  "name": "replay-chrome-recorder",
+  "version": "0.0.1",
+  "description": "A simple demo to manipulate chrome recorder using puppeteer/replay lib",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "replay": "replay script_samples/recording.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickchangch/replay-chrome-recorder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickchangch/replay-chrome-recorder/issues"
+  },
+  "homepage": "https://github.com/rickchangch/replay-chrome-recorder#readme",
+  "dependencies": {
+    "@puppeteer/replay": "^2.10.2",
+    "puppeteer": "^19.7.4"
+  }
+}
